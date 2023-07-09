@@ -12,14 +12,14 @@ const HomePage = () => {
          </div>
          </div>
          <div className="main__lectures">
-         <h2>הרצאות</h2>
+         <h2>כנסים</h2>
          <div className="main__lectures__showLec">
          dfgdgdfgd
 
          </div>
          </div>
          <div className="main__lectures">
-         <h2>הרצאות</h2>
+         <h2>חוגים</h2>
          <div className="main__lectures__showLec">
              dfgdgdfg
          </div>

@@ -15,12 +15,20 @@
     padding: 15px 10px;
     display: flex;
     justify-content: space-evenly;
+<<<<<<< HEAD
     color: var(--purple) ;
+=======
+   
+>>>>>>> 82d56420474208b3f4c06de1623d4d3695c82911
    
 }
 
 .Link{
     font-size: 22px;
     text-decoration: none;
+    color: rgb(140, 12, 172);
+}
 
+.Link:hover{
+    text-decoration: underline;
 }

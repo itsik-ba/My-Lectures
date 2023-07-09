@@ -14,18 +14,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{ 
-    width: 100vw;
-    height: 100vh;  
-}
+
 body{
+<<<<<<< HEAD
     background-color: var(--white);
     width: 100vw;
     height: 100vh;
+=======
+    background-color: white;
+    // width: 100vw;
+    // height: 100vh;
+>>>>>>> 82d56420474208b3f4c06de1623d4d3695c82911
 
 }
 
 #root{
-    width: 100vw;
-    height: 100vh;
+    // width: 100vw;
+    // height: 100vh;
 }
