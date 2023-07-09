@@ -1,8 +1,33 @@
-
+import "./style/homePage.scss"
 
 const HomePage = () => {
   return (
-    <div>barak</div>
+    <div className="main">
+       <div className="main__container">
+         <div className="main__lectures">
+         <h2>הרצאות</h2>
+         <div className="main__lectures__showLec">
+         dfgdgdfgd
+
+         </div>
+         </div>
+         <div className="main__lectures">
+         <h2>הרצאות</h2>
+         <div className="main__lectures__showLec">
+         dfgdgdfgd
+
+         </div>
+         </div>
+         <div className="main__lectures">
+         <h2>הרצאות</h2>
+         <div className="main__lectures__showLec">
+         dfgdgdfgd
+
+         </div>
+         </div>
+        
+      </div>
+    </div>
   )
 }
 
