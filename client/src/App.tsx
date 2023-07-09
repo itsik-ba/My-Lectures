@@ -12,7 +12,7 @@ import HomePage from './pages/mainBar/homePage/HomePage'
 import Lecture from './pages/mainBar/lecture/Lecture'
 import Classes from './pages/mainBar/classes/Classes'
 import Courses from './pages/mainBar/courses/Courses'
-import BottomPage from './components/bottomPage/BottomPage'
+// import BottomPage from './components/bottomPage/BottomPage'
 
 
 
@@ -31,7 +31,7 @@ function App() {
 
       <Route path="/classes" element={<Classes/>}/>
     </Routes>
-    <BottomPage/>
+    {/* <BottomPage/> */}
       </div>
      
   )
