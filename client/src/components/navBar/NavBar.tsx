@@ -1,17 +1,19 @@
 import { Link } from "react-router-dom"
-
+import "./style/navBar.scss"
 
 
 const NavBar = () => {
   return (
-    <nav>
-        <Link to={"/courses"} className="">כנסים</Link>
+    <nav className="navBar">
 
-        <Link to={"classes"} className="">חוגים</Link>
+        <Link to={"/"} className="Link">הבית</Link> 
+        <Link to={"lecture"} className="Link">הרצאות</Link>
+        <Link to={"/courses"} className="Link">כנסים</Link>
+        <Link to={"classes"} className="Link">חוגים</Link>
 
-        <Link to={"lecture"} className="">הרצאות</Link>
+        
 
-        <Link to={"/"} className="">הבית</Link>
+     
 
     </nav>
   )
