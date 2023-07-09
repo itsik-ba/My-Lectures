@@ -1,3 +1,14 @@
+/* Variables */
+:root {
+	--purple: rgb(140, 12, 172);
+	--white: rgb(255, 255, 255);
+	--LightPurplr: #451258;
+	--whiteSmoke: whitesmoke;
+	--LightGray: rgb(208, 203, 203);
+	// --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+/* End of Variables */
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +19,7 @@ html{
     height: 100vh;  
 }
 body{
-    background-color: white;
+    background-color: var(--white);
     width: 100vw;
     height: 100vh;
 

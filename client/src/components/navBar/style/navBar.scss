@@ -1,9 +1,21 @@
+/* Variables */
+:root {
+	--purple: rgb(140, 12, 172);
+	--white: rgb(255, 255, 255);
+    --LightPurplr: #451258;
+	--whiteSmoke: whitesmoke;
+	--LightGray: rgb(208, 203, 203);
+	// --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+/* End of Variables */
+
+
 .navBar{
     width: 100%;
     padding: 15px 10px;
     display: flex;
     justify-content: space-evenly;
-    color: rgb(140, 12, 172) ;
+    color: var(--purple) ;
    
 }
 
