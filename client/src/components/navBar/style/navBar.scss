@@ -1,9 +1,21 @@
+/* Variables */
+:root {
+	--purple: rgb(140, 12, 172);
+	--white: rgb(255, 255, 255);
+    --LightPurplr: #451258;
+	--whiteSmoke: whitesmoke;
+	--LightGray: rgb(208, 203, 203);
+	--cyan: rgb(35, 155, 220);
+}
+/* End of Variables */
+
+
 .navBar{
     width: 100%;
     padding: 15px 10px;
     display: flex;
     justify-content: space-evenly;
-   
+    color: var(--purple) ;
    
 }
 
@@ -15,4 +27,10 @@
 
 .Link:hover{
     text-decoration: underline;
+}
+
+.Link:focus{
+color: var(--cyan);
+font-size: 23px;
+transition: 1ms;
 }

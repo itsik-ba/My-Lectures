@@ -21,8 +21,7 @@ const HomePage = () => {
          <div className="main__lectures">
          <h2>חוגים</h2>
          <div className="main__lectures__showLec">
-         dfgdgdfgd
-
+             dfgdgdfg
          </div>
          </div>
         

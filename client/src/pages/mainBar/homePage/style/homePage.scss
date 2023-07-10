@@ -1,3 +1,14 @@
+/* Variables */
+:root {
+	--purple: rgb(140, 12, 172);
+	--white: rgb(255, 255, 255);
+    --LightPurplr: #451258;
+	--whiteSmoke: whitesmoke;
+	--LightGray: rgb(208, 203, 203);
+	// --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+/* End of Variables */
+
 
 .main{
  
@@ -6,7 +17,8 @@
 
     &__container{
         width: 90%;
-        background-color: rgb(208, 203, 203);
+        height: 100vh;
+        background-color: var(--LightGray);
         margin: 15px 0px;
         border-radius: 31px 31px 0px 0px;
         
@@ -17,14 +29,15 @@
         margin: 20px 0px;
         width: 100%;
         text-align: center;
-        color: rgb(140, 12, 172);
+        color: var(--white);
       
 
         &__showLec{
             min-height: 250px;
              margin: 10px 0px;
             text-align: center;
-            background-color: whitesmoke;
+            background-color: var(--whiteSmoke);
+            color: var(--LightPurplr)
          }
 
     }
