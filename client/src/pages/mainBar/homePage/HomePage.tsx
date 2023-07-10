@@ -5,24 +5,86 @@ const HomePage = () => {
     <div className="main">
        <div className="main__container">
          <div className="main__lectures">
-         <h2>הרצאות</h2>
+         <h2>הרצאות מומלצות</h2>
          <div className="main__lectures__showLec">
-         dfgdgdfgd
+         <div className="main__lec">
+          <div className="main__lec__img">
+            {/* {lecture.img} */}
+          </div>
+          {/* <h2>{lecture.name}</h2> */}
+          <p>{}</p>
+         </div>
+         <div className="main__lec">
+         <div className="main__lec__img">
+            {/* {lecture.img} */}
+          </div>
+          {/* <h2>{lecture.name}</h2> */}
+          <p>{}</p>
+         </div>
+         <div className="main__lec">
+         <div className="main__lec__img">
+            {/* {lecture.img} */}
+          </div>
+          {/* <h2>{lecture.name}</h2> */}
+          <p>{}</p>
+         </div>
+         </div>
+         </div>
 
-         </div>
-         </div>
          <div className="main__lectures">
-         <h2>כנסים</h2>
+         <h2>כנסים מומלצים</h2>
          <div className="main__lectures__showLec">
-         dfgdgdfgd
+         <div className="main__lec">
+          <div className="main__lec__img">
+            {/* {lecture.img} */}
+          </div>
+          {/* <h2>{lecture.name}</h2> */}
+          <p>{}</p>
+         </div>
 
+         <div className="main__lec">
+          <div className="main__lec__img">
+            {/* {lecture.img} */}
+          </div>
+          {/* <h2>{lecture.name}</h2> */}
+          <p>{}</p>
+         </div>
+         <div className="main__lec">
+          <div className="main__lec__img">
+            {/* {lecture.img} */}
+          </div>
+          {/* <h2>{lecture.name}</h2> */}
+          <p>{}</p>
          </div>
          </div>
+         </div>
+          
+         
          <div className="main__lectures">
          <h2>חוגים</h2>
          <div className="main__lectures__showLec">
-             dfgdgdfg
+         <div className="main__lec">
+          <div className="main__lec__img">
+            {/* {lecture.img} */}
+          </div>
+          {/* <h2>{lecture.name}</h2> */}
+          <p>{}</p>
          </div>
+         <div className="main__lec">
+          <div className="main__lec__img">
+            {/* {lecture.img} */}
+          </div>
+          {/* <h2>{lecture.name}</h2> */}
+          <p>{}</p>
+         </div>
+         <div className="main__lec">
+          <div className="main__lec__img">
+            {/* {lecture.img} */}
+          </div>
+          {/* <h2>{lecture.name}</h2> */}
+          <p>{}</p>
+         </div>
+         </div> 
          </div>
         
       </div>
