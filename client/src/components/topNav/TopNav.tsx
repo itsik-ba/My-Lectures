@@ -8,7 +8,7 @@ export const TopNav = () => {
    
      <Link to={"/search"} className="about">חיפוש</Link>
    
-     <Link to={"/login"} className="about">התחבר</Link>
+     <span className="icon"> <Link to={"/login"} className="about">התחבר</Link> </span>
    
     
     </div>
