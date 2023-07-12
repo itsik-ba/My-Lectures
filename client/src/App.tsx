@@ -13,6 +13,7 @@ import Lecture from './pages/mainBar/lecture/Lecture'
 import Classes from './pages/mainBar/classes/Classes'
 import Courses from './pages/mainBar/courses/Courses'
 import BottomPage from './components/bottomPage/BottomPage'
+import About from './pages/abaut/About'
 
 
 
@@ -20,19 +21,21 @@ function App() {
   return (
     
       <div>
-         <TopNav />
+        <TopNav />
         <NavBar/>
-    <Routes>
-      <Route path="/" element={<HomePage/>}/>
+        <Routes>
+          <Route path="/" element={<HomePage/>}/>
 
-      <Route path="/lecture" element={<Lecture/>}/>
+          <Route path="/lecture" element={<Lecture/>}/>
 
-      <Route path="/courses" element={<Courses/>}/>
+          <Route path="/courses" element={<Courses/>}/>
 
-      <Route path="/classes" element={<Classes/>}/>
-    </Routes>
-    <BottomPage/>
-      </div>
+          <Route path="/classes" element={<Classes/>}/>
+
+          <Route path="/about" element={<About/>}/>
+        </Routes>
+        <BottomPage/>
+      </div>  
      
   )
 }
