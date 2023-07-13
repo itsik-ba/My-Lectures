@@ -61,7 +61,7 @@ const HomePage = () => {
           
          
          <div className="main__lectures">
-         <h2>חוגים</h2>
+         <h2>חוגים מומלצים</h2>
          <div className="main__lectures__showLec">
          <div className="main__lec">
           <div className="main__lec__img">
