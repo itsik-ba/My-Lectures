@@ -11,7 +11,7 @@ const NavBar = () => {
         <Link to={"/courses"} className="Link">כנסים</Link>
         <Link to={"classes"} className="Link">חוגים</Link>
 
-        </nav>
+    </nav>
   )
 }
 
