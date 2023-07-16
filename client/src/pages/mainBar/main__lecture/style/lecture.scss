@@ -1,52 +1,37 @@
+:root {
+	--purple: rgb(140, 12, 172);
+	--white: rgb(255, 255, 255);
+    --LightPurplr: #451258;
+	--whiteSmoke: whitesmoke;
+	--LightGray: rgb(208, 203, 203);
+	
+}
+
 .container{
- 
+ width: 100%;
  height: 100%;
  display: grid;
  grid-area: center;
  text-align: center;
  
-}
-
-.wrapper{
-  
-    background-color: rgb(233, 230, 230);
-    max-height: 100%;
-}
-
-.sectionA{
-   display: flex;
-   justify-content: center; flex-wrap: wrap;
-
-   &__secA, &__secB, &__secC{
-    min-height: 390px;
-    border: 1px solid red;
-    width: 33%;
-    gap: 16px;
-    
-   }
-}
-.sectionA{
-   display: flex;
-   justify-content: center; flex-wrap: wrap;
-
-   &__secA, &__secB, &__secC{
-    min-height: 390px;
-    border: 1px solid red;
-    width: 31%;
-   
-    
-   }
-}
-
-.sectionB{
-    display: flex;
-    justify-content: center; flex-wrap: wrap;
  
-    &__secA, &__secB, &__secC{
-     min-height: 390px;
-     border: 1px solid red;
-     width: 31%;
-     
-     
-    }
+
+ &__wrapper{
+ margin: 20px;
+ 
  }
+}
+
+.blockA{
+background-color: aqua;
+border-radius: 31px 31px 31px 31px;
+padding: 16px 0px 0px;
+}
+
+.blockA__wrapperBlock{
+    display: flex;
+    background-color: var(--LightGray);
+    min-height: 300px;
+    border-radius: 0px 0px 31px 31px;
+}
+  
