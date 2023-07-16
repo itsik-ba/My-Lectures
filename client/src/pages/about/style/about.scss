@@ -9,12 +9,22 @@
 }
 /* End of Variables */
 
+.about.open {
+    display: block;
+ }
+
+ .popup-overlay {
+     background-color: var(--purple);
+  }
 
 .about {
  
     display: flex;
     justify-content: center; 
     
+
+
+
     &__container{
         width: 90%;
         padding: 10px;
@@ -33,26 +43,30 @@
         font-size:x-large;
         color: var(--LightPurplr);
         font-family: 'Poppins', sans-serif;
-          
+    }    
 
-        &__title {
-            min-height: 250px;
-             margin: 10px 0px;
-            text-align: center;
-            background-color: var(--whiteSmoke);
-            color: var(--LightPurplr)
-         }
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+          &__mainText{
+                min-height: 350px;
+                margin: 10px 0px;
+                text-align: center;
+                background-color: var(--whiteSmoke);
+                color: var(--LightPurplr);
+                padding: 10px;
 
 
-        &__text {
-            min-height: 250px;
-             margin: 10px 0px;
-            text-align: center;
-            background-color: var(--whiteSmoke);
-            color: var(--LightPurplr);
-         }
+                &__mainText__text {
+                    padding: 530px;
+                }
+        }
     }
+
+    
   
      
 
-}

@@ -13,7 +13,7 @@ import Lecture from './pages/mainBar/lecture/Lecture'
 import Classes from './pages/mainBar/classes/Classes'
 import Courses from './pages/mainBar/courses/Courses'
 import BottomPage from './components/bottomPage/BottomPage'
-import About from './pages/abaut/About'
+import About from './pages/about/About'
 
 
 
