@@ -6,11 +6,13 @@ const Lecture = () => {
     <div className="container">
      <div className="container__wrapper">
       <div className="blockA">
-        <h2>xfsdfs</h2>
+        <h2>הרצאות קרובות</h2>
         <div className="blockA__wrapperBlock">
-          <div className="a">ada</div>
-          <div className="a">ada</div>
-          <div className="a">ada</div>
+         
+          <div className="a">its aaa</div>
+          <div className="b">ada</div>
+          <div className="c">ada</div>
+         
         </div>
       </div>
      
