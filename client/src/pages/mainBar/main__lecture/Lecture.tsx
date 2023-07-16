@@ -1,7 +1,11 @@
 
 const Lecture = () => {
   return (
-    <div>Lecture</div>
+    <div className="container">
+      <div className="wrapper">
+        div.section
+      </div>
+    </div>
   )
 }
 
