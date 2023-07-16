@@ -10,6 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+>>>>>>> 8a1586d90e8958d8caad5731fc4ee91d9f23309d
     "@mui/icons-material": "^5.14.0",
     "@mui/material": "^5.14.0",
     "axios": "^1.4.0",
