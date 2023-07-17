@@ -8,12 +8,16 @@ import NavBar from './components/navBar/NavBar'
 import { TopNav}  from './components/topNav/TopNav'
 
 // navBar pages routes/////////////////
-import HomePage from './pages/mainBar/homePage/HomePage'
-import Lecture from './pages/mainBar/lecture/Lecture'
-import Classes from './pages/mainBar/classes/Classes'
-import Courses from './pages/mainBar/courses/Courses'
-import BottomPage from './components/bottomPage/BottomPage'
-import About from './pages/about/About'
+
+import HomePage from './pages/mainBar/main__homePage/HomePage'
+import Lecture from './pages/mainBar/main__lecture/Lecture'
+import Classes from './pages/mainBar/main__classes/Classes'
+import Courses from './pages/mainBar/main__courses/Courses'
+// import BottomPage from './components/bottomPage/BottomPage'
+import About from './pages/topBar/top__about/About'
+
+
+
 
 
 
@@ -34,7 +38,7 @@ function App() {
 
           <Route path="/about" element={<About/>}/>
         </Routes>
-        <BottomPage/>
+        {/* <BottomPage/> */}
       </div>  
      
   )
