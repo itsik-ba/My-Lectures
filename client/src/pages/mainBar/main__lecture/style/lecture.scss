@@ -26,12 +26,11 @@
 background-color: var(--LightGray);
 border-radius: 31px 31px 31px 31px;
 padding: 16px 0px 0px;
-
+margin: 6px 0px;
 
 &__wrapperBlock{
     width: 100%;
     display: grid; 
-    
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 6px;
     background-color: var(--whiteSmoke);
