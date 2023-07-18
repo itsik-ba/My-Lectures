@@ -9,12 +9,21 @@ const Lecture = () => {
            <div className="blockA">
             <span className="blockA__Sback"></span>
             <span className="blockA__Sfrwd"></span>
-
             <h2 className="blockA__h2">הרצאות קרובות</h2>
             <div className="blockA__wrapperBlock">
-            <div className="a">its aaa</div>
-            <div className="b">ada</div>
-            <div className="c">ada</div>
+            <div className="a">
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName">the name</h3>
+            <p className="a__Info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, obcaecati. Nemo iusto ad dolorem et!</p>
+            </div>
+            <div className="b">B
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName"></h3>
+            <p className="a__Info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, obcaecati. Nemo iusto ad dolorem et!</p></div>
+            <div className="c">C
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName"></h3>
+            <p className="a__Info"></p></div>
            </div>
            </div>
      
@@ -23,9 +32,21 @@ const Lecture = () => {
             <span className="blockA__Sfrwd"></span>
             <h2 className="blockA__h2">בריאות , ספורט , תזונה</h2>
             <div className="blockA__wrapperBlock">
-            <div className="a">its aaa</div>
-            <div className="b">ada</div>
-            <div className="c">ada</div>
+            <div className="a">its aaa
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName"></h3>
+            <p className="a__Info"></p>
+            </div>
+            <div className="b">ada
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName"></h3>
+            <p className="a__Info"></p>
+            </div>
+            <div className="c">ada
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName"></h3>
+            <p className="a__Info"></p>
+            </div>
            </div>
            </div>
 
