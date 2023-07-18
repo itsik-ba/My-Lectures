@@ -30,7 +30,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage/>}/>
 
-          <Route path="/lecture" element={<Lecture/>}/>
+          <Route path="/lecture" element={<Lecture title={''} src={''} name={''} info={''}/>}/>
 
           <Route path="/courses" element={<Courses/>}/>
 

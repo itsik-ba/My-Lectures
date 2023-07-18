@@ -1,7 +1,13 @@
 import "./style/lecture.scss"
 
+interface mainCard {
+  title: string,
+  src: string,
+  name: string,
+  info: string,
+}
 
-const Lecture = () => {
+const Lecture = (_mainCard:mainCard) => {
   return (
     <div className="container">
        <div className="container__wrapper">
@@ -12,9 +18,9 @@ const Lecture = () => {
             <h2 className="blockA__h2">הרצאות קרובות</h2>
             <div className="blockA__wrapperBlock">
             <div className="a">
-            <div className="a__MainImg"></div>
-            <h3 className="a__MainName">the name</h3>
-            <p className="a__Info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, obcaecati. Nemo iusto ad dolorem et!</p>
+            <div className="a__MainImg">{_mainCard.src}</div>
+            <h3 className="a__MainName">{_mainCard.name}</h3>
+            <p className="a__Info">{_mainCard.info}</p>
             </div>
             <div className="b">
             <div className="a__MainImg"></div>
@@ -23,7 +29,7 @@ const Lecture = () => {
             <div className="c">
             <div className="a__MainImg"></div>
             <h3 className="a__MainName"></h3>
-            <p className="a__Info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolorem, velit quibusdam corrupti nihil corporis animi optio commodi in eaque similique, iusto laborum aspernatur impedit totam? Ducimus hic odit nulla, fugit maiores deleniti doloremque impedit eligendi labore inventore distinctio minus blanditiis. Temporibus optio itaque maxime voluptatibus quod ab earum perspiciatis.</p></div>
+            <p className="a__Info">inventore distinctio minus blanditiis. Temporibus optio itaque maxime voluptatibus quod ab earum perspiciatis.</p></div>
            </div>
            </div>
      
