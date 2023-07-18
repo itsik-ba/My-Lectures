@@ -8,8 +8,8 @@ const NavBar = () => {
 
         <Link to={"/"} className="Link">הבית</Link> 
         <Link to={"lecture"} className="Link">הרצאות</Link>
-        <Link to={"/courses"} className="Link">כנסים</Link>
-        <Link to={"classes"} className="Link">חוגים</Link>
+        <Link to={"/courses"} className="Link">קורסים</Link>
+        <Link to={"classes"} className="Link">סיורים</Link>
 
     </nav>
   )

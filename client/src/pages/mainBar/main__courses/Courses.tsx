@@ -9,7 +9,7 @@ const Courses = () => {
          <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
 
-         <h2 className="blockA__h2">הרצאות קרובות</h2>
+         <h2 className="blockA__h2">קורסים קרובים</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -20,7 +20,7 @@ const Courses = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2">בריאות , ספורט , תזונה</h2>
+         <h2 className="blockA__h2">קורסים עם תעודה</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -31,7 +31,7 @@ const Courses = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2"> אקטואליה ותקשורת</h2>
+         <h2 className="blockA__h2">השתלמויות</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -42,7 +42,7 @@ const Courses = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2">  הורות וקריירה</h2>
+         <h2 className="blockA__h2">קורסים דיגיטליים</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -53,7 +53,7 @@ const Courses = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2">זוגיות , יחסים ואהבה</h2>
+         <h2 className="blockA__h2">קורסים פרונטליים</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -64,7 +64,7 @@ const Courses = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2"> טכנולוגיה, עתיד, בדיוני</h2>
+         <h2 className="blockA__h2">קורסיים מוזלים, הרשמה מאוחרת</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -75,7 +75,7 @@ const Courses = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2"> היסטוריה, תרבות, פילוסופיה</h2>
+         <h2 className="blockA__h2">אסור לפספס</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -86,7 +86,7 @@ const Courses = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2"> עסקים וכלכלה, יזמות</h2>
+         <h2 className="blockA__h2">קורסים לפי נושא </h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -97,7 +97,7 @@ const Courses = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2"> קולנוע , הופעות , מוסיקה , לייף סטייל</h2>
+         <h2 className="blockA__h2"> קורסים חינמיים</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>

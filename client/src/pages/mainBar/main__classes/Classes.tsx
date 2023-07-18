@@ -8,7 +8,7 @@ const Classes = () => {
          <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
 
-         <h2 className="blockA__h2">הרצאות קרובות</h2>
+         <h2 className="blockA__h2">סיורים קרובים</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -19,7 +19,7 @@ const Classes = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2">בריאות , ספורט , תזונה</h2>
+         <h2 className="blockA__h2">סיורים במרכז</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -30,7 +30,7 @@ const Classes = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2"> אקטואליה ותקשורת</h2>
+         <h2 className="blockA__h2">סיורים בצפון</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -41,7 +41,7 @@ const Classes = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2">  הורות וקריירה</h2>
+         <h2 className="blockA__h2"> סיורים בדרום </h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -52,7 +52,7 @@ const Classes = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2">זוגיות , יחסים ואהבה</h2>
+         <h2 className="blockA__h2">סיורים רומנטיים</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -63,7 +63,7 @@ const Classes = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2"> טכנולוגיה, עתיד, בדיוני</h2>
+         <h2 className="blockA__h2">סיורים למשפחות</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -74,7 +74,7 @@ const Classes = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2"> היסטוריה, תרבות, פילוסופיה</h2>
+         <h2 className="blockA__h2">סיורים עם רכב , אופניים</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -85,7 +85,7 @@ const Classes = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2"> עסקים וכלכלה, יזמות</h2>
+         <h2 className="blockA__h2">סיורי תרבות, היסטוריה</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
@@ -96,7 +96,7 @@ const Classes = () => {
         <div className="blockA">
         <span className="blockA__Sback"></span>
          <span className="blockA__Sfrwd"></span>
-         <h2 className="blockA__h2"> קולנוע , הופעות , מוסיקה , לייף סטייל</h2>
+         <h2 className="blockA__h2">סיורים בערב</h2>
          <div className="blockA__wrapperBlock">
          <div className="a">its aaa</div>
          <div className="b">ada</div>
