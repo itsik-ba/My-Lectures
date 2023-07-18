@@ -16,14 +16,14 @@ const Lecture = () => {
             <h3 className="a__MainName">the name</h3>
             <p className="a__Info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, obcaecati. Nemo iusto ad dolorem et!</p>
             </div>
-            <div className="b">B
+            <div className="b">
             <div className="a__MainImg"></div>
             <h3 className="a__MainName"></h3>
             <p className="a__Info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, obcaecati. Nemo iusto ad dolorem et!</p></div>
-            <div className="c">C
+            <div className="c">
             <div className="a__MainImg"></div>
             <h3 className="a__MainName"></h3>
-            <p className="a__Info"></p></div>
+            <p className="a__Info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolorem, velit quibusdam corrupti nihil corporis animi optio commodi in eaque similique, iusto laborum aspernatur impedit totam? Ducimus hic odit nulla, fugit maiores deleniti doloremque impedit eligendi labore inventore distinctio minus blanditiis. Temporibus optio itaque maxime voluptatibus quod ab earum perspiciatis.</p></div>
            </div>
            </div>
      

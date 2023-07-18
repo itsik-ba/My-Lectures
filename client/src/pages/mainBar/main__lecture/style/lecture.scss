@@ -77,7 +77,7 @@ margin: 8px 0px;
 
 
 &__MainImg{
-    width: 346px;
+    width: 296px;
     height: 200px;
     // max-width: 300px;
     // max-height: 200px;
@@ -85,8 +85,10 @@ margin: 8px 0px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
 
-
+&__MainName{
+    color: var(--purple);
 }
 
 
