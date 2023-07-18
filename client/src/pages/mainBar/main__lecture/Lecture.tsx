@@ -1,5 +1,6 @@
 import "./style/lecture.scss"
 
+
 interface mainCard {
   title: string,
   src: string,
@@ -8,7 +9,8 @@ interface mainCard {
 }
 
 const Lecture = (_mainCard:mainCard) => {
-  return (
+
+return (
     <div className="container">
        <div className="container__wrapper">
 
