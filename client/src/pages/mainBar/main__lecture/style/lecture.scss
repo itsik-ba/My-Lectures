@@ -74,7 +74,7 @@ max-width: 300px;
 min-height: 300px;
 max-height: 350px;
 margin: 8px 0px;
-
+overflow: scroll;
 
 &__MainImg{
     width: 296px;
@@ -89,7 +89,10 @@ margin: 8px 0px;
 
 &__MainName{
     color: var(--purple);
+    font-weight: bolder;
 }
 
-
+ &__Info{
+    overflow: scroll;
+ }
 }
