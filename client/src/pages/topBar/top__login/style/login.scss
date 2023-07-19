@@ -18,6 +18,7 @@
     
   
     &__card{
+        border-radius: 35px 35px 35px 35px;
         padding: 20px 0px;
         margin-bottom: 100px;
         display: grid;
@@ -26,6 +27,8 @@
         width: 400px;
         height: 400px;
         background-color: var(--LightGray);
+        box-shadow: 13px 9px 15px -6px rgba(0,0,0,0.75);
+
   }
 
     &__h2login{
@@ -35,31 +38,50 @@
     
     &__myform{
         margin-bottom: 150px;
-       width: 50%;
-       justify-self: center;
+       width: 100%;
+       display: grid;
+       justify-content: center;
+    
 
         &__label{
         color: var(--purple);
         }
 
       &__useremail{
-        justify-self: center;
-        padding: 6px 40px;
+          outline: none;
+         padding: 6px 35px;
+         font-size: 16px;
+       
+       
+         
       }
 
       &__userpassword{
-        justify-self: center;
-        padding: 6px 40px;
+        outline: none;
+        padding: 6px 35px;
+        font-size: 16px;  
+         
       }
        
 
       &__btn{
-        padding: 6px;
-        width: 67%;
+        padding: 6px 6px;
+        width: 50%;
         font-size: 20px;
          margin: 30px 0px;
         justify-self: center;
       }
     }
 
+}
+
+.forgotPassword{
+  
+
+    &__link{
+      
+        padding: 0 10px;
+        text-decoration: none;
+        color: var(--whiteSmoke);
+    }
 }
