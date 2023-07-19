@@ -15,7 +15,7 @@ import Classes from './pages/mainBar/main__classes/Classes'
 import Courses from './pages/mainBar/main__courses/Courses'
 import BottomPage from './components/bottomPage/BottomPage'
 import About from './pages/topBar/top__about/About'
-
+import Login from './pages/topBar/top__login/Login'
 
 
 
@@ -30,13 +30,17 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage/>}/>
 
-          <Route path="/lecture" element={<Lecture title={''} src={''} name={''} info={''}/>}/>
+          <Route path="/lecture" element={<Lecture/>}/>
 
           <Route path="/courses" element={<Courses/>}/>
 
           <Route path="/classes" element={<Classes/>}/>
 
           <Route path="/about" element={<About/>}/>
+
+          <Route path="/login" element={<Login/>}/>
+
+
         </Routes>
         <BottomPage/>
       </div>  

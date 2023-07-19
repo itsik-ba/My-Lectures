@@ -1,8 +1,7 @@
 import "./style/TopNav.scss";
-// import React from "react";
 import { Link } from "react-router-dom"
 
-// export const TopNav: React.FC = ({ children }) = () => {
+
 export const TopNav = () => {
   return (
     <div className="TopNav">
@@ -10,7 +9,7 @@ export const TopNav = () => {
     
       <Link to={"/search"} className="about">חיפוש</Link>
     
-      <span className="icon"> <Link to={"/login"} className="about">התחבר</Link> </span>
+      <span className="icon"><Link to={"/login"} className="about">התחבר</Link> </span>
    
     </div>
 

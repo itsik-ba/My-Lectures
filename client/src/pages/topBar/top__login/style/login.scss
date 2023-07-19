@@ -1,0 +1,65 @@
+:root {
+	--purple: rgb(140, 12, 172);
+	--white: rgb(255, 255, 255);
+    --LightPurplr: #451258;
+	--whiteSmoke: whitesmoke;
+	--LightGray: rgb(208, 203, 203);
+	
+}
+
+
+.login{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-area: center;
+    text-align: center;
+    color: var(--white);
+    
+  
+    &__card{
+        padding: 20px 0px;
+        margin-bottom: 100px;
+        display: grid;
+        text-align: center;
+        grid-area: center;
+        width: 400px;
+        height: 400px;
+        background-color: var(--LightGray);
+  }
+
+    &__h2login{
+       padding: 20px 0px;
+    }
+
+    
+    &__myform{
+        margin-bottom: 150px;
+       width: 50%;
+       justify-self: center;
+
+        &__label{
+        color: var(--purple);
+        }
+
+      &__useremail{
+        justify-self: center;
+        padding: 6px 40px;
+      }
+
+      &__userpassword{
+        justify-self: center;
+        padding: 6px 40px;
+      }
+       
+
+      &__btn{
+        padding: 6px;
+        width: 67%;
+        font-size: 20px;
+         margin: 30px 0px;
+        justify-self: center;
+      }
+    }
+
+}

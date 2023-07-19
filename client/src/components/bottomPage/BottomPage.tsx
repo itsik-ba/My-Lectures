@@ -1,5 +1,5 @@
 import "./style/bottomPage.scss"
-import ContactPhoneIcon    from '@mui/icons-material/ContactPhone';
+import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 
 const BottomPage = () => {

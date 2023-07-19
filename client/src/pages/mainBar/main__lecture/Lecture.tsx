@@ -1,14 +1,9 @@
 import "./style/lecture.scss"
 
 
-interface mainCard {
-  title: string,
-  src: string,
-  name: string,
-  info: string,
-}
 
-const Lecture = (_mainCard:mainCard) => {
+
+const Lecture = () => {
 
 return (
     <div className="container">
@@ -20,9 +15,9 @@ return (
             <h2 className="blockA__h2">הרצאות קרובות</h2>
             <div className="blockA__wrapperBlock">
             <div className="a">
-            <div className="a__MainImg">{_mainCard.src}</div>
-            <h3 className="a__MainName">{_mainCard.name}</h3>
-            <p className="a__Info">{_mainCard.info}</p>
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName"></h3>
+            <p className="a__Info"></p>
             </div>
             <div className="b">
             <div className="a__MainImg"></div>
