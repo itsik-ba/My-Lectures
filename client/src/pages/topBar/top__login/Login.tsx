@@ -1,6 +1,7 @@
 import "./style/login.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { Link } from "react-router-dom"
 
 
 const Login = () => {
@@ -21,9 +22,12 @@ const userLogin = () =>{
         <FontAwesomeIcon icon={faUserSecret} className="pass" />
         <input type="password"  name="password"  className="login__myform__userpassword" required/>
           <button type="submit" className="login__myform__btn">התחבר</button>
+
           <div className="forgotPassword">
-          <a href="http://" className="forgotPassword__link">הרשמה</a> 
-          <a href="http://" className="forgotPassword__link">שכחתי סיסמה</a> 
+
+          <Link to={"/register"} className="forgotPassword__link">הרשמה</Link>
+
+          <Link to={"/forgotPassword"} className="forgotPassword__link">שכחתי סיסמה</Link> 
           </div>
          
        </form>
