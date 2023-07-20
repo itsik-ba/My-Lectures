@@ -1,9 +1,174 @@
 import "./style/register.scss";
 
 
+
 const Register = () => {
   return (
-    <div>Register</div>
+    <div className="register">
+      <div className="register__card">
+        <h2 className="register__card__h2">הרשמה</h2>
+
+        <form className="register__card__form">
+        <label className="register__card__form__label">שם מלא</label>
+        <input 
+        type="text" 
+        className="register__card__form__input" 
+        name="name" />  
+
+        <label className="register__card__form__label">טלפון</label>
+        <input 
+        type="tel" 
+        className="register__card__form__input" 
+        name="tel" /> 
+
+        <label className="register__card__form__label">מייל</label>
+        <input 
+        type="email" 
+        className="register__card__form__input" 
+        name="email"/> 
+
+        <label className="register__card__form__label">כתובת</label>
+        <input
+         type="text" 
+         className="register__card__form__input" name="address" />  
+
+        <label className="register__card__form__label">סיסמה</label>
+        <input 
+        type="password" 
+        className="register__card__form__input" name="password" />  
+
+        <div className="choose">
+          <h3 className="choose__h3">
+            בחר את תחומי העניין שלך
+          </h3>
+          </div>
+
+          <input 
+          type="radio" 
+          name="history" 
+          value="history" />
+           היסטוריה ופילוסופיה
+
+          <input 
+          type="radio" 
+          name="tourses" 
+          value="tourses" />
+          טיולים 
+
+          <input 
+          type="radio" 
+          name="neture" 
+          value="neture" />
+           טבע 
+          
+          <input 
+          type="radio" 
+          name="bible" 
+          value="bible" />
+          תנ״ך
+          
+          <input 
+          type="radio" 
+          name="computer" 
+          value="computer" />
+          מחשבים 
+          
+          <input 
+          type="radio" 
+          name="books" 
+          value="books" />
+          ספרים
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          בריאות
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          תזונה
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+           יחסים
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+           ספורט
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          אקטואליה ותקשורת
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          קריירה
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          הורות וילדים
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          טכנולוגיה ועתיד
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          בדיוני
+         
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          עסקים וכלכלה
+         
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          יזמות 
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          קולנוע והופעות
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          מוסיקה
+          
+          <input 
+          type="radio" 
+          name="myRadio" 
+          value="option3" />
+          לייף סטייל
+
+          <button 
+          className="form__btn" type="submit">הרשם</button>
+
+        </form>
+      </div>
+    </div>
   )
 }
 
