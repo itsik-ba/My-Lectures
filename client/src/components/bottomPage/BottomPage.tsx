@@ -23,7 +23,7 @@ const BottomPage = () => {
            </a>
         </div>  
         <div>
-            My-Lectures-Project 2023 All rights reserved  
+            My-Lectures 2023 All rights reserved  
             <span>  </span>
           <CopyrightIcon/>
           
