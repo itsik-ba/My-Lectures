@@ -2,13 +2,13 @@ import "./style/login.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { Link } from "react-router-dom"
+import React  from "react"
 
+const Login: React.FC = () => {
 
-const Login = () => {
+  const userLogin = () =>{
+  }
 
-const userLogin = () =>{
-
-}
 
   return (
     <div className="login">
@@ -17,10 +17,49 @@ const userLogin = () =>{
        <form className="login__myform" onSubmit={userLogin}>
         <label 
         className="login__myform__label">דואר אלקטרוני</label> 
-        <FontAwesomeIcon icon={faEnvelope} className="email" /> <input type="email" name="email"    className="login__myform__useremail" required />
+        {/* <FontAwesomeIcon icon={faEnvelope} className="email" /> <input type="email" name="email"    className="login__myform__useremail" required /> */}
+        
+
+      <div className='login__myform__input'>
+        <FontAwesomeIcon
+          icon={faEnvelope}
+          className="login__myform__input__icon"
+          
+        />
+        <span>  </span>
+        <input
+          type="email"
+          className="login__myform__input__userinput" 
+          required
+          
+        />
+        
+      </div>
         <label className="login__myform__label">סיסמה</label>
-        <FontAwesomeIcon icon={faUserSecret} className="pass" />
-        <input type="password"  name="password"  className="login__myform__userpassword" required/>
+
+
+      <div className='login__myform__input'>
+        <FontAwesomeIcon
+          icon={faUserSecret}
+          className="login__myform__input__icon"
+          
+        />
+        <span>  </span>
+        <input
+          type="password"
+          name="password"
+          className="login__myform__input__userinput" 
+          required
+          
+        />
+        
+      </div>
+
+
+
+
+        {/* <FontAwesomeIcon icon={faUserSecret} className="pass" />
+        <input type="password"  name="password"  className="login__myform__userpassword" required/> */}
           <button type="submit" className="login__myform__btn">התחבר</button>
 
           <div className="forgotPassword">
