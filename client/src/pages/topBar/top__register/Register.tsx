@@ -3,6 +3,7 @@ import "./style/register.scss";
 
 
 const Register = () => {
+
   return (
     <div className="register">
       <div className="register__card">
@@ -43,6 +44,8 @@ const Register = () => {
           </h3>
           </div>
 
+
+{/* 
           <input 
           type="radio" 
           name="history" 
@@ -161,7 +164,7 @@ const Register = () => {
           type="radio" 
           name="myRadio" 
           value="option3" />
-          לייף סטייל
+          לייף סטייל */}
 
           <button 
           className="form__btn" type="submit">הרשם</button>
