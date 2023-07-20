@@ -11,11 +11,12 @@
 
 
 .main{
- 
+    
     display: flex;
     justify-content: center; 
    
     &__container{
+        
         width: 90%;
         background-color: var(--LightGray);
         border-radius: 31px 31px 0px 0px;
