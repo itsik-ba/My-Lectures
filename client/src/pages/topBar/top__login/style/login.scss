@@ -41,8 +41,27 @@
        width: 100%;
        display: grid;
        justify-content: center;
-    
 
+       &__input{
+        position: relative;
+        display: inline-block;
+        justify-content: space-between;
+        color: var(--purple);
+
+          &__userinput{
+            
+              width: 180px;
+              height: 30px;
+          }  
+          &__icon{
+            position: absolute;
+            right: 15%;
+            top: 50%;
+            transform: translateY(-50%);
+            
+          }
+        }
+      
         &__label{
         color: var(--purple);
         }
