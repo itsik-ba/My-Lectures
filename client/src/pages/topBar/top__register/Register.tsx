@@ -1,8 +1,28 @@
 import "./style/register.scss";
+import MultiSelect from './Register_Multi';
 
 
 
 const Register = () => {
+  const options = [
+    { value: 'היסטוריה ופילוסופיה', label: 'היסטוריה ופילוסופיה' },
+    { value: 'בריאות', label: 'בריאות' },
+    { value: 'מדע', label: 'מדע' },
+    { value: 'ספורט', label: 'ספורט' },
+    { value: 'תנ״ך', label: 'תנ״ך' },
+    { value: 'ספרים', label: 'ספרים' },
+    { value: 'טבע', label: 'טבע' },
+    { value: 'חיות', label: 'חיות' },
+    { value: 'בדיוני', label: 'בדיוני' },
+    { value: 'הורות וילדים', label: 'הורות וילדים' },
+    { value: 'טכנולוגיה', label: 'טכנולוגיה' },
+    { value: 'לייף סטייל', label: 'לייף סטייל' },
+  ];
+
+  const handleMultiSelectChange = (selectedOptions: any) => {
+    console.log('Selected Options:', selectedOptions);
+  };
+
 
   return (
     <div className="register">
@@ -44,6 +64,7 @@ const Register = () => {
           </h3>
           </div>
 
+          <MultiSelect options={options} onChange={handleMultiSelectChange} />
 
 {/* 
           <input 

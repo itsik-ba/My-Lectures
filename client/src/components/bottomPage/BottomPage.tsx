@@ -3,7 +3,7 @@ import "./style/bottomPage.scss"
 // import ContactMailIcon from '@mui/icons-material/ContactMail';
 import CopyrightIcon from '@mui/icons-material/Copyright';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import { Padding } from "@mui/icons-material";
+// import { Padding } from "@mui/icons-material";
 // import { MyLocation } from "@mui/icons-material";
 
 const BottomPage = () => {
