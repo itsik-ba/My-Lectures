@@ -55,11 +55,9 @@ cursor: pointer;
 
 
 &__wrapperBlock{
-    // width: 100%;
+   
     justify-items: center;
-    // display: grid; 
-    // grid-template-columns: 1fr 1fr 1fr; 
-    background-color: var(--whiteSmoke);
+     background-color: var(--whiteSmoke);
     min-height: 300px;
     border-radius: 0px 0px 31px 31px;
     display: flex;
@@ -82,8 +80,6 @@ overflow: auto;
 &__MainImg{
     width: 296px;
     height: 200px;
-    // max-width: 300px;
-    // max-height: 200px;
     background: url(../images/download.jpeg);
     background-repeat: no-repeat;
     background-position: center;
