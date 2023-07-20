@@ -18,8 +18,8 @@
     
   
     &__card{
-        border-radius: 35px 35px 35px 35px;
-        padding: 20px 0px;
+        border-radius: 35px;
+        padding: 20px;
         margin-bottom: 100px;
         display: grid;
         text-align: center;
@@ -84,4 +84,20 @@
         text-decoration: none;
         color: var(--whiteSmoke);
     }
+}
+
+.email{
+ position: absolute;
+ bottom:347px;
+ right: 470px;
+ color: var(--white);
+ font-size: 24px;
+}
+
+.pass{
+    position: absolute;
+ bottom:280px;
+ right: 470px;
+    color: var(--white);
+    font-size: 24px;  
 }
