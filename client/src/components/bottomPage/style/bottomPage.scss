@@ -18,18 +18,12 @@
     background-color: var(--LightGray);
     border-top:4px solid var(--purple);
 
-    &__icons {
-        padding-right: 200px;
-
-
-        &__btn{
-            color : var(--purple);
-            font-size: 50px;
-            background-color: var(--LightGray);
-            border: var(--LightGray);
-            margin-right: 15px;
-        }
+    &__text{
+        display: flex;
+        justify-content: space-between;  
+        padding: 10px;
+        color: var(--LightPurplr);
+        font-size: 20px;      
     }
-
    
 }
