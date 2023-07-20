@@ -19,7 +19,7 @@ const BottomPage = () => {
             <AlternateEmailIcon />
           <span>    </span>
           <a href={`mailto:${contactEmail}`} onClick={contactLinkClick}>
-             צור קשר
+             MyLecturesProject2023@gmail.com
            </a>
         </div>  
         <div>
