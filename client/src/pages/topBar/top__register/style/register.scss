@@ -4,7 +4,9 @@
     --LightPurplr: #451258;
 	--whiteSmoke: whitesmoke;
 	--LightGray: rgb(208, 203, 203);
-	}
+  --black: #000000;
+
+}
 
     .register{
         width: 100%;
@@ -29,11 +31,11 @@
                 width: 100%;
                 display: grid;
                 justify-content: center;
-               
+                color: var(--LightPurplr);
                 &__btn{
                     margin-top: 10px;
                     height: 35px;
-                    color: '#FFFFFF',
+                    color: var(--black),
                 }
 
             
@@ -50,7 +52,7 @@
                   &__select{
                     height: 35px;
                     background-color: var(--LightPurplr);
-                    color: var(--#451258);
+                    color: var(--white);
                   }
                            
                   }                   

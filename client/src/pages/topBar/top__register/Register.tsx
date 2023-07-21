@@ -63,8 +63,8 @@ interface SelectOption {
         type="password" 
         className="register__card__form__input" name="password" />  
 
-        <div className="choose">
-          <h3 className="choose__h3">
+        <div className="register__card__form__choose">
+          <h3 className="register__card__form__choose__h3">
             בחר את תחומי העניין שלך
           </h3>
           </div>
