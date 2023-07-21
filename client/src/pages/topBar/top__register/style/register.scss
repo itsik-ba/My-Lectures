@@ -29,6 +29,14 @@
                 width: 100%;
                 display: grid;
                 justify-content: center;
+               
+                &__btn{
+                    margin-top: 10px;
+                    height: 35px;
+                    color: '#FFFFFF',
+                }
+
+            
 
                 &__label{
                   padding:4px 0px;
@@ -36,16 +44,24 @@
                 }
 
                   &__input{
-                    
+                    height: 35px;     
                   }
-
+                  
+                  &__select{
+                    height: 35px;
+                    background-color: var(--LightPurplr);
+                    color: var(--#451258);
+                  }
+                           
+                  }                   
+                }
             }
-
            
-        }
+         
+        
+    
 
-    }
-
+    
     .choose{
         width: 100%;
         color: #451258;

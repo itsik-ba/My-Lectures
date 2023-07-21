@@ -1,9 +1,11 @@
 import "./style/register.scss";
 import MultiSelect from './Register_Multi';
+import React, { useState } from "react";
 
-
-
-const Register = () => {
+interface SelectOption {
+  value: string;
+  label: string;
+}
   const options = [
     { value: 'היסטוריה ופילוסופיה', label: 'היסטוריה ופילוסופיה' },
     { value: 'בריאות', label: 'בריאות' },
@@ -19,8 +21,11 @@ const Register = () => {
     { value: 'לייף סטייל', label: 'לייף סטייל' },
   ];
 
-  const handleMultiSelectChange = (selectedOptions: any) => {
-    console.log('Selected Options:', selectedOptions);
+  const Register: React.FC = () => {
+    const [selectedOptions, setSelectedOptions] = useState<SelectOption[]>([]);
+  
+  const handleMultiSelectChange = (selectedOptions: SelectOption[]) => {
+    setSelectedOptions(selectedOptions);
   };
 
 
@@ -64,8 +69,25 @@ const Register = () => {
           </h3>
           </div>
 
-          <MultiSelect options={options} onChange={handleMultiSelectChange} />
 
+        <div>
+          <MultiSelect
+            options={options}
+            value={selectedOptions}
+            onChange={handleMultiSelectChange}
+            className="register__card__form__select" 
+          />
+        </div>
+
+          <button className="register__card__form__btn" type="submit">הרשם</button>
+
+        </form>
+      </div>
+    </div>
+  )
+}
+
+export default Register
 {/* 
           <input 
           type="radio" 
@@ -186,14 +208,3 @@ const Register = () => {
           name="myRadio" 
           value="option3" />
           לייף סטייל */}
-
-          <button 
-          className="form__btn" type="submit">הרשם</button>
-
-        </form>
-      </div>
-    </div>
-  )
-}
-
-export default Register

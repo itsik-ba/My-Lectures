@@ -17,7 +17,6 @@ const Login: React.FC = () => {
        <form className="login__myform" onSubmit={userLogin}>
         <label 
         className="login__myform__label">דואר אלקטרוני</label> 
-        {/* <FontAwesomeIcon icon={faEnvelope} className="email" /> <input type="email" name="email"    className="login__myform__useremail" required /> */}
         
 
       <div className='login__myform__input'>
