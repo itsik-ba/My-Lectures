@@ -14,7 +14,7 @@ import BottomPage from './components/bottomPage/BottomPage'
 import About from './pages/topBar/top__about/About'
 import Login from './pages/topBar/top__login/Login'
 import Register from './pages/topBar/top__register/Register'
-import { ForgotPassword } from './pages/topBar/top__forgotPassword/ForgotPassword'
+import ForgetPassword  from './pages/topBar/top__forgotPassword/ForgotPassword'
 
 
 
@@ -33,7 +33,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/register" element={<Register/>}/>
-          <Route path="/forgotPassword" element={<ForgotPassword/>}/>
+          <Route path="/forgotPassword" element={<ForgetPassword/>}/>
          </Routes>
         <BottomPage/>
       </div>  
