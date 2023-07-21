@@ -1,7 +1,6 @@
 // ********************************
 import { Routes, Route } from 'react-router-dom'
 
-
 // main routes/////////////////
 import NavBar from './components/navBar/NavBar'
 import { TopNav}  from './components/topNav/TopNav'
@@ -28,23 +27,14 @@ function App() {
         <NavBar/>
         <Routes>
           <Route path="/" element={<HomePage/>}/>
-
           <Route path="/lecture" element={<Lecture/>}/>
-
           <Route path="/courses" element={<Courses/>}/>
-
           <Route path="/classes" element={<Classes/>}/>
-
           <Route path="/about" element={<About/>}/>
-
           <Route path="/login" element={<Login/>}/>
-
           <Route path="/register" element={<Register/>}/>
-          
           <Route path="/forgotPassword" element={<ForgotPassword/>}/>
-
-
-        </Routes>
+         </Routes>
         <BottomPage/>
       </div>  
      

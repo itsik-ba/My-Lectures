@@ -1,8 +1,5 @@
 import "./style/lecture.scss"
 
-
-
-
 const Lecture = () => {
 
 return (
