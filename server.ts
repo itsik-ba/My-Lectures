@@ -10,7 +10,6 @@ const PORT = 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// Replace with your email configuration
 const transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
   port: 587,
@@ -31,10 +30,6 @@ interface ForgotPasswordResponse {
 
 app.post('/forgot-password', (req: Request<{}, {}, ForgotPasswordRequest>, res: Response<ForgotPasswordResponse>) => {
   const { email } = req.body;
-
-  // In a real-world app, you would validate the email, check if it exists in the database, and generate a unique reset token.
-
-  // For demonstration purposes, we'll simply send a reset link for any email received.
 
   const resetLink = `https://your-app.com/reset-password?email=${email}`;
 
