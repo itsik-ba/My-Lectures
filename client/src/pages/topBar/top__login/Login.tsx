@@ -9,35 +9,35 @@ const Login: React.FC = () => {
   const userLogin = () =>{
   }
 
-
-  return (
+return (
     <div className="login">
-     <div className="login__card">
-       <h2 className="login__h2login">התחברות</h2>
-       <form className="login__myform" onSubmit={userLogin}>
+     <div className="card">
+
+       <h2 className="card__h2login">התחברות</h2>
+
+       <form className="card__myform" onSubmit={userLogin}>
+        
         <label 
-        className="login__myform__label">דואר אלקטרוני</label> 
+        className="card__myform__label">דואר אלקטרוני</label> 
         
 
-      <div className='login__myform__input'>
+      <div className='card__myform__input'>
         <FontAwesomeIcon
           icon={faEnvelope}
-          className="login__myform__input__icon"
+          className="card__myform__input__icon"
           
         />
         <span>  </span>
         <input
           type="email"
-          className="login__myform__input__userinput" 
-          required
-          
-        />
-        
-      </div>
-        <label className="login__myform__label">סיסמה</label>
+          className="card__myform__input__userinput" 
+          required/>
+        </div>
+
+        <label className="card__myform__label">סיסמה</label>
 
 
-      <div className='login__myform__input'>
+      <div className='card__myform__input'>
         <FontAwesomeIcon
           icon={faUserSecret}
           className="login__myform__input__icon"
@@ -47,21 +47,14 @@ const Login: React.FC = () => {
         <input
           type="password"
           name="password"
-          className="login__myform__input__userinput" 
-          required
-          
-        />
+          className="card__myform__input__userinput" 
+          required />
         
       </div>
 
+         <button type="submit" className="card__myform__btn">התחבר</button>
 
-
-
-        {/* <FontAwesomeIcon icon={faUserSecret} className="pass" />
-        <input type="password"  name="password"  className="login__myform__userpassword" required/> */}
-          <button type="submit" className="login__myform__btn">התחבר</button>
-
-          <div className="forgotPassword">
+          <div className="card__forgotPassword">
 
           <Link to={"/register"} className="forgotPassword__link">הרשמה</Link>
 

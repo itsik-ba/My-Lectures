@@ -28,14 +28,19 @@
 
             &__form{
                 margin-bottom: 150px;
-                width: 100%;
+                // width: 100%;
                 display: grid;
                 justify-content: center;
                 color: var(--LightPurplr);
+                
                 &__btn{
                     margin-top: 10px;
                     height: 35px;
-                    color: var(--black),
+                    width: 50%;
+                    justify-self: center;
+                    color: var(--black);
+                  
+
                 }
 
             
