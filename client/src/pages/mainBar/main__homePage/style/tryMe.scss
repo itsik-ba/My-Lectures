@@ -1,0 +1,33 @@
+:root {
+	--purple: rgb(140, 12, 172);
+	--white: rgb(255, 255, 255);
+    --LightPurplr: #451258;
+	--whiteSmoke: whitesmoke;
+	--LightGray: rgb(208, 203, 203);
+	
+}
+
+.main{
+   display: flex;
+   justify-content: center;
+
+
+   &__container{
+    display: flex;
+   justify-content: center;
+   background-color: var(--LightGray);
+    width: 90%;
+    height: 350px;
+    border-radius: 31px 31px 0px 0px;
+   }
+
+   &__card{
+    background-color: aliceblue;
+
+    &__mainCard{
+
+    }
+   }
+
+}
+
