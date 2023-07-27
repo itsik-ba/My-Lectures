@@ -9,8 +9,6 @@ app.use(express.static('./client'));
 
 
 
-
-
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
   });
