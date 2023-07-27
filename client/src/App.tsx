@@ -15,6 +15,7 @@ import About from './pages/topBar/top__about/About'
 import Login from './pages/topBar/top__login/Login'
 import Register from './pages/topBar/top__register/Register'
 import ForgetPassword  from './pages/topBar/top__forgotPassword/ForgotPassword'
+import Trick from './pages/mainBar/main__homePage/Trick'
 
 
 
@@ -26,7 +27,7 @@ function App() {
         <TopNav />
         <NavBar/>
         <Routes>
-          <Route path="/" element={<HomePage/>}/>
+          <Route path="/" element={<Trick />}/>
           <Route path="/lecture" element={<Lecture/>}/>
           <Route path="/courses" element={<Courses/>}/>
           <Route path="/classes" element={<Classes/>}/>
