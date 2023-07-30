@@ -1,0 +1,70 @@
+/* Variables */
+:root {
+	--purple: rgb(140, 12, 172);
+	--white: rgb(255, 255, 255);
+    --LightPurplr: #451258;
+	--whiteSmoke: whitesmoke;
+	--LightGray: rgb(208, 203, 203);
+	
+}
+
+
+
+.mainSection {
+    min-height: 300px;  
+    margin: 5%;
+    margin-top: 5px;
+    align-items: center; 
+     
+
+    &__container{
+        background-color: var(--LightGray);
+    }
+  
+  &__type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--LightGray);
+  
+  /* Title */
+  &__h2 {
+    color: var(--white);  }
+    font-size: 30px;
+  /* Buttons */
+  &__btnR,
+  &__btnL {
+    color: var(--purple);
+  }
+}  
+  /* ShowLec container */
+  &__showLec {
+    display: flex;
+    /* Your styles for the showLec container */
+  }
+  
+  /* Lecture Item */
+  &__lec {
+    text-align: center;
+    border-radius: 10px;
+    border: 10px solid var(--whiteSmoke);
+    flex: 0 0 calc(33.333% - 10px); /* To display 3 items in a row */
+    margin: 5px;
+    color: var(--purple);
+    font-weight: bold;
+    }
+}  
+
+
+.arrow-icon{
+    color: var(--purple);
+    font-size: 24px;
+    background: var(--LightGray);
+    border: none;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
