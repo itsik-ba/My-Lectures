@@ -1,129 +1,137 @@
+import "./style/lecture.scss"
 
-
-import React from "react";
-import { useSortData } from "./Encoloure_sort_byType";
-
-const TypeApp: React.FC = () => {
-  const typeArrays = ["הרצאות", "קורסים", "סיורים"];
-
+const Lecture = () => {
   return (
-    <div>
-      <h2>Sorted Data:</h2>
-      {typeArrays.map((dataType, index) => (
-        <DataDisplay key={index} dataType={dataType} />
-      ))}
-    </div>
-  );
-};
+    <div className="container">
+       <div className="container__wrapper">
 
-const DataDisplay: React.FC<{ dataType: string }> = ({ dataType }) => {
-  const sortedData = useSortData(dataType);
+           <div className="blockA">
+            <span className="blockA__Sback"></span>
+            <span className="blockA__Sfrwd"></span>
+            <h2 className="blockA__h2">הרצאות קרובות</h2>
+            <div className="blockA__wrapperBlock">
+            <div className="a">
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName">the name</h3>
+            <p className="a__Info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, obcaecati. Nemo iusto ad dolorem et!</p>
+            </div>
+            <div className="b">
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName"></h3>
+            <p className="a__Info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, obcaecati. Nemo iusto ad dolorem et!</p></div>
+            <div className="c">
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName"></h3>
+            <p className="a__Info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolorem, velit quibusdam corrupti nihil corporis animi optio commodi in eaque similique, iusto laborum aspernatur impedit totam? Ducimus hic odit nulla, fugit maiores deleniti doloremque impedit eligendi labore inventore distinctio minus blanditiis. Temporibus optio itaque maxime voluptatibus quod ab earum perspiciatis.</p></div>
+           </div>
+           </div>
+     
+           <div className="blockA">
+           <span className="blockA__Sback"></span>
+            <span className="blockA__Sfrwd"></span>
+            <h2 className="blockA__h2">בריאות , ספורט , תזונה</h2>
+            <div className="blockA__wrapperBlock">
+            <div className="a">its aaa
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName"></h3>
+            <p className="a__Info"></p>
+            </div>
+            <div className="b">ada
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName"></h3>
+            <p className="a__Info"></p>
+            </div>
+            <div className="c">ada
+            <div className="a__MainImg"></div>
+            <h3 className="a__MainName"></h3>
+            <p className="a__Info"></p>
+            </div>
+           </div>
+           </div>
 
-  return (
-    <>
-      <h3>Data for Type: {dataType}</h3>
-      <ul>
-        {sortedData.map((item, index) => (
-          <li key={index}>
-            {item.title} - {item.startDate} to {item.endDate}
-          </li>
-        ))}
-      </ul>
-    </>
-  );
-};
+           <div className="blockA">
+           <span className="blockA__Sback"></span>
+            <span className="blockA__Sfrwd"></span>
+            <h2 className="blockA__h2"> אקטואליה ותקשורת</h2>
+            <div className="blockA__wrapperBlock">
+            <div className="a">its aaa</div>
+            <div className="b">ada</div>
+            <div className="c">ada</div>
+           </div>
+           </div>
+           
+           <div className="blockA">
+           <span className="blockA__Sback"></span>
+            <span className="blockA__Sfrwd"></span>
+            <h2 className="blockA__h2">  הורות וקריירה</h2>
+            <div className="blockA__wrapperBlock">
+            <div className="a">its aaa</div>
+            <div className="b">ada</div>
+            <div className="c">ada</div>
+           </div>
+           </div>
 
-export default TypeApp;
+           <div className="blockA">
+           <span className="blockA__Sback"></span>
+            <span className="blockA__Sfrwd"></span>
+            <h2 className="blockA__h2">זוגיות , יחסים ואהבה</h2>
+            <div className="blockA__wrapperBlock">
+            <div className="a">its aaa</div>
+            <div className="b">ada</div>
+            <div className="c">ada</div>
+           </div>
+           </div>
 
+           <div className="blockA">
+           <span className="blockA__Sback"></span>
+            <span className="blockA__Sfrwd"></span>
+            <h2 className="blockA__h2"> טכנולוגיה, עתיד, בדיוני</h2>
+            <div className="blockA__wrapperBlock">
+            <div className="a">its aaa</div>
+            <div className="b">ada</div>
+            <div className="c">ada</div>
+           </div>
+           </div>
 
+           <div className="blockA">
+           <span className="blockA__Sback"></span>
+            <span className="blockA__Sfrwd"></span>
+            <h2 className="blockA__h2"> היסטוריה, תרבות, פילוסופיה</h2>
+            <div className="blockA__wrapperBlock">
+            <div className="a">its aaa</div>
+            <div className="b">ada</div>
+            <div className="c">ada</div>
+           </div>
+           </div>
 
+           <div className="blockA">
+           <span className="blockA__Sback"></span>
+            <span className="blockA__Sfrwd"></span>
+            <h2 className="blockA__h2"> עסקים וכלכלה, יזמות</h2>
+            <div className="blockA__wrapperBlock">
+            <div className="a">its aaa</div>
+            <div className="b">ada</div>
+            <div className="c">ada</div>
+           </div>
+           </div>
 
-// import React from "react";
-// import { useSortData } from "./Encoloure_sort_byType";
-
-
-// type EnclosureTable = {
-//   title: string;
-//   articalName: string;
-//   startDate: string;
-//   endDate: string;
-//   time: string;
-//   location: string;
-//   description: string;
-//   enclosure:string;
-//   type: string;
-// }
-
-
-
-// const TableApp: React.FC = () => {
-  
-//   const typeArrays  = [
-//     {dataType: 'הרצאות'},
-//     {dataType:  'קורסים'},
-//     {dataType:  'סיורים'},
-//   ]
-  
-
-//   // const enclosureTable: EnclosureTable[] = [
-//   //   {title: "AAA", articalName: "AAA", startDate: "AAA", endDate: "AAA", time: "AAA", location: "AAA", description: "AAA", enclosure: "AAA", type: "הרצאות"},
-//   //   {title: "BBB", articalName: "BBB", startDate: "BBB", endDate: "BBB", time: "BBB", location: "BBB", description: "BBB", enclosure: "BBB", type: "קורסים"},
-//   //   {title: "CCC", articalName: "CCC", startDate: "CCC", endDate: "CCC", time: "CCC", location: "CCC", description: "CCC", enclosure: "CCC", type: "סיורים"},
-//   //   {title: "DDD", articalName: "DDD", startDate: "DDD", endDate: "DDD", time: "DDD", location: "DDD", description: "DDD", enclosure: "DDD", type: "קורסים"},
-//   //   {title: "EEE", articalName: "EEE", startDate: "EEE", endDate: "EEE", time: "EEE", location: "EEE", description: "EEE", enclosure: "EEE", type: "הרצאות"},
-//   //   {title: "AAA", articalName: "AAA", startDate: "AAA", endDate: "AAA", time: "AAA", location: "AAA", description: "AAA", enclosure: "AAA", type: "הרצאות"},
-//   //   {title: "BBB", articalName: "BBB", startDate: "BBB", endDate: "BBB", time: "BBB", location: "BBB", description: "BBB", enclosure: "BBB", type: "קורסים"},
-//   //   {title: "CCC", articalName: "CCC", startDate: "CCC", endDate: "CCC", time: "CCC", location: "CCC", description: "CCC", enclosure: "CCC", type: "סיורים"},
-//   //   {title: "DDD", articalName: "DDD", startDate: "DDD", endDate: "DDD", time: "DDD", location: "DDD", description: "DDD", enclosure: "DDD", type: "קורסים"},
-//   //   {title: "EEE", articalName: "EEE", startDate: "EEE", endDate: "EEE", time: "EEE", location: "EEE", description: "EEE", enclosure: "EEE", type: "הרצאות"},
-//   //   {title: "AAA", articalName: "AAA", startDate: "AAA", endDate: "AAA", time: "AAA", location: "AAA", description: "AAA", enclosure: "AAA", type: "הרצאות"},
-//   //   {title: "BBB", articalName: "BBB", startDate: "BBB", endDate: "BBB", time: "BBB", location: "BBB", description: "BBB", enclosure: "BBB", type: "קורסים"},
-//   //   {title: "CCC", articalName: "CCC", startDate: "CCC", endDate: "CCC", time: "CCC", location: "CCC", description: "CCC", enclosure: "CCC", type: "סיורים"},
-//   //   {title: "DDD", articalName: "DDD", startDate: "DDD", endDate: "DDD", time: "DDD", location: "DDD", description: "DDD", enclosure: "DDD", type: "קורסים"},
-//   //   {title: "EEE", articalName: "EEE", startDate: "EEE", endDate: "EEE", time: "EEE", location: "EEE", description: "EEE", enclosure: "EEE", type: "הרצאות"},
-//   //   {title: "AAA", articalName: "AAA", startDate: "AAA", endDate: "AAA", time: "AAA", location: "AAA", description: "AAA", enclosure: "AAA", type: "הרצאות"},
-//   //   {title: "BBB", articalName: "BBB", startDate: "BBB", endDate: "BBB", time: "BBB", location: "BBB", description: "BBB", enclosure: "BBB", type: "קורסים"},
-//   //   {title: "CCC", articalName: "CCC", startDate: "CCC", endDate: "CCC", time: "CCC", location: "CCC", description: "CCC", enclosure: "CCC", type: "סיורים"},
-//   //   {title: "DDD", articalName: "DDD", startDate: "DDD", endDate: "DDD", time: "DDD", location: "DDD", description: "DDD", enclosure: "DDD", type: "קורסים"},
-//   //   {title: "EEE", articalName: "EEE", startDate: "EEE", endDate: "EEE", time: "EEE", location: "EEE", description: "EEE", enclosure: "EEE", type: "הרצאות"},
-    
-//   //   ];
-        
-
-//   // Create a state to store the   sorted array
-//   const [sortedArray, setSortedArray] = React.useState<EnclosureTable[]>([]);
-
-//   // Function to handle sorting when a data type is selected
-//   // const handleSortByDate = (dataType: string) => {
-//     // const sortedData = DataComponent({ dataType });
-//   //   setSortedArray(sortedData);
-//   // };
-
-
-//   return (
-//     <div>
-//       {typeArrays.map((typeArray, index) => (
-//            sortedData = DataComponent({ dataType });
-//           setSortedArray(sortedData);
-//       ))}
+           <div className="blockA">
+           <span className="blockA__Sback"></span>
+            <span className="blockA__Sfrwd"></span>
+            <h2 className="blockA__h2"> קולנוע , הופעות , מוסיקה , לייף סטייל</h2>
+            <div className="blockA__wrapperBlock">
+            <div className="a">its aaa</div>
+            <div className="b">ada</div>
+            <div className="c">ada</div>
+           </div>
+           </div>
+     
+     
+     </div>
+     
       
+    </div>
+  )
+}
 
-
-
-//       {enclosureTable.map((lecture, index) => (
-//         <Table key={index} 
-//           title={lecture.title} 
-//           articalName={lecture.articalName} 
-//           startDate={lecture.startDate} 
-//           endDate={lecture.endDate} 
-//           time={lecture.time} 
-//           location={lecture.location} 
-//           description={lecture.description} 
-//           enclosure={lecture.enclosure} 
-//           type={lecture.type}  />
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default TableApp;
+export default Lecture
