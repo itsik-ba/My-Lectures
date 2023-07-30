@@ -1,13 +1,13 @@
-import mysql, { Connection } from 'mysql';
+import mysql2, { Connection } from 'mysql2';
 
 const dbConfig = {
-    host: 'localhost',
-    user: 'your_mysql_username',
-    password: 'your_mysql_password',
-    database: 'your_database_name',
-  };
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME,
+};
 
-const connection: Connection = mysql.createConnection(dbConfig);
+const connection: Connection = mysql2.createConnection(dbConfig);
 
 connection.connect((err) => {
   if (err) {

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.ts"
+    "server": "nodemon server2.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,12 +19,14 @@
     "body-parser": "^1.20.2",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "jwt-simple": "^0.5.6",
     "mongoose": "^7.0.3",
     "mysql": "^2.18.1",
+    "mysql2": "^3.5.2",
     "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.1",
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {
