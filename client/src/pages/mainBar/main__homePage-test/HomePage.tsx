@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { useSortData } from "../main__lecture_test/Encoloure_sort_byType";
+import { useSortData } from "../encoloure/Sort_Table";
 import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
-import { Button, Typography } from '@mui/material';
+import { Button } from '@mui/material';
 import './style/homePage.scss';
 
 type ActivityTypes = {
@@ -72,6 +72,7 @@ const DataDisplay: React.FC<{ dataType: string }> = ({ dataType }) => {
   return (
     <div className="main">
       <div className="main__container">
+
         {activityTypes.map((activityType: ActivityTypes, index: number) => {
           const { typeName } = activityType;
           const sortedData = getDataByType(typeName);
