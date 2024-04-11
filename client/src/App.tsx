@@ -1,4 +1,7 @@
+
 import NavBar from "./components/navbar/NavBar"
+import WebRoutes from "./WebRoutes"
+
 
 
 function App() {
@@ -8,11 +11,12 @@ function App() {
     <>
     <main className="">
     <NavBar />
+    <div className="xs:flex xs:justify-center xs:py-20">
+    <WebRoutes />
+    </div>
     </main>
-   
-      {/* <div>
-      <h1 className="flex justify-center text-2xl">sdfsfd</h1>
-      </div> */}
+    
+    
     
     </>
   )

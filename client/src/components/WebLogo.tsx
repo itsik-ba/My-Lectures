@@ -3,7 +3,7 @@
 const WebLogo = () => {
   return (
     <div>
-      &lt;מצא לי&gt;
+      &lt; מצא לי &gt;
     </div>
   )
 }
